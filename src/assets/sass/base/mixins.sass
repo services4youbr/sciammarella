@@ -1,0 +1,10 @@
+=texto-centro-vertical($altura)
+    height: $altura
+    line-height: $altura
+=negrito($tipo)
+    @if ($tipo == "semi-bold")
+        font-weight: 400
+    @if ($tipo == "bold")
+        font-weight: 600
+    @if ($tipo == "bolder")
+        font-weight: 800
