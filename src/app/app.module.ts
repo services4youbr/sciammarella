@@ -8,13 +8,15 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NguCarouselModule } from '@ngu/carousel';
+import { ServicosComponent } from './servicos/servicos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    NavbarComponent
+    NavbarComponent,
+    ServicosComponent
   ],
   imports: [
     BrowserModule,
