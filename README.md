@@ -1,27 +1,26 @@
-# Sciammarella
+# App de Pedidos da Sciammarella Dolci & Torti
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.
+Aplicativo e site para fazer pedidos, receber promoções e atualizações da Sciammarella Dolci & Torti
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Vesionamento
 
-## Code scaffolding
+Para uma melhor organização dos releases, nós seguimos os guidelines da [Semantic Versioning 2.0.0](http://semver.org/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Contribuição
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Localize nas [nossas tarefas](https://github.com/services4youbr/sciammarella/issues) os nossos próximos passos no projeto
 
-## Running unit tests
+Quer contribuir? Siga [nossas recomendações](https://github.com/services4youbr/sciammarella/blob/master/CONTRIBUTING.md)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+[![Throughput Graph](https://graphs.waffle.io/services4youbr/sciammarella/throughput.svg)](https://waffle.io/services4youbr/sciammarella/metrics/throughput)
 
-## Running end-to-end tests
+## Histórico
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Veja os [releases](https://github.com/services4youbr/sciammarella/releases) para detalhamento das modificações
 
-## Further help
+## Licença
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+[MIT License](https://github.com/services4youbr/sciammarella/blob/master/LICENSE)
+
