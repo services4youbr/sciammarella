@@ -8,3 +8,10 @@
         font-weight: 600
     @if ($tipo == "bolder")
         font-weight: 800
+=background-css($image, $repeat:no-repeat, $attachment:fixed, $x:0, $y:0)
+    background-image: url(assets/images/backgrounds/#{$image}.jpg)
+    background-repeat: $repeat
+    background-attachment: $attachment
+    background-position-x: $x
+    background-position-y: $y
+    background-size: cover

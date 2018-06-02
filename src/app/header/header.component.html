@@ -1,1 +1,15 @@
 <app-navbar></app-navbar>
+
+<ngu-carousel
+    [inputs]="carouselOne"
+    (carouselLoad)="myfunc($event)">
+        <ngu-item NguCarouselItem>
+            <img class="responsive-img" src="assets/images/backgrounds/bolo-e-brigadeiros-strawberry.jpg" alt="">
+        </ngu-item>
+        <ngu-item NguCarouselItem>
+            <img class="responsive-img" src="assets/images/backgrounds/cake-detail.jpg" alt="">
+        </ngu-item>
+        
+        <button NguCarouselPrev class='leftRs btn-flat'>&lt;</button>
+        <button NguCarouselNext class='rightRs btn-flat'>&gt;</button>
+</ngu-carousel>
