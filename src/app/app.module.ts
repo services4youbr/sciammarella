@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NguCarouselModule } from '@ngu/carousel';
 import { ServicosComponent } from './servicos/servicos.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ServicosComponent } from './servicos/servicos.component';
     HomeComponent,
     HeaderComponent,
     NavbarComponent,
-    ServicosComponent
+    ServicosComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
